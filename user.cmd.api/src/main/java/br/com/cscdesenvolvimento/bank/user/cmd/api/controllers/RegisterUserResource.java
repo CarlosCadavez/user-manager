@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.UUID;
 
 @Controller
-@RequestMapping("git ")
+@RequestMapping("/api/v1/users")
 @AllArgsConstructor
 public class RegisterUserResource {
 
