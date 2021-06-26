@@ -10,11 +10,11 @@
 	</parent>
 	<groupId>br.com.cscdesenvolvimento.bank</groupId>
 	<artifactId>user.query.api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>user.query.api</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>16</java.version>
+		<java.version>15</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -44,6 +44,16 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.axonframework</groupId>
+			<artifactId>axon-spring-boot-starter</artifactId>
+			<version>4.4</version>
+		</dependency>
+		<dependency>
+			<groupId>br.com.cscdesenvolvimento.bank</groupId>
+			<artifactId>user.core</artifactId>
+			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
