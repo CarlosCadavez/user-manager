@@ -4,11 +4,11 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 public class PasswordEncoderImpl implements PasswordEncoder {
 
-    private static final int ENCODE_STRENTH = 12;
+    private static final int ENCODE_STRENGTH = 12;
 
     @Override
     public String hashPassword(String password) {
-        var encoder = new BCryptPasswordEncoder(ENCODE_STRENTH);
+        var encoder = new BCryptPasswordEncoder(ENCODE_STRENGTH);
         var hashedPassword = encoder.encode(password);
 
         return hashedPassword;
