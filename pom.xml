@@ -9,11 +9,6 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
-    <properties>
-        <maven.compiler.source>15</maven.compiler.source>
-        <maven.compiler.target>15</maven.compiler.target>
-    </properties>
-
     <modules>
         <module>user.core</module>
         <module>user.cmd.api</module>
